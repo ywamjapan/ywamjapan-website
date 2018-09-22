@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <id>006a</id>
+  <title>TOUR CONDUCTOR / L [White]</title>
+  <desc>ホワイトを基調としたTOUR CONDUCTORスタイルのテンプレートです。</desc>
+  <pagelist>
+  	<page><title>TOP</title><desc>ページの顔となる表紙のページです。</desc></page>
+  	<page><title>ABOUT US</title><desc></desc></page>
+  	<page><title>COUNTRY</title><desc></desc></page>
+  	<page><title>NORWAY</title><desc></desc></page>
+  	<page><title>OPTIONAL TOUR</title><desc></desc></page>
+  	<page><title>TEMP</title><desc></desc></page>
+  </pagelist>
+<preview>
+  <url>http://www.digitalstage.jp/go/bind7/templates/preset_prev/006.html</url>
+</preview>
+</info>

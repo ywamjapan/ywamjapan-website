@@ -1,0 +1,1114 @@
+@charset "utf-8";
+/* theme setting
+--------------------------------------------------------- */
+
+/* ---------- areaframe ---------- */
+/*(areaframe-4)*/
+.areaframe-4 .atl,.area .areaframe-4 .atl	{background-image: none;}
+.areaframe-4 .atr,.area .areaframe-4 .atr	{background-image: none;}
+.areaframe-4 .abl,.area .areaframe-4 .abl	{background-image: none;}
+.areaframe-4 .abr,.area .areaframe-4 .abr	{background-image: none;}
+.areaframe-4 .atc,.area .areaframe-4 .atc	{background-image: none;}
+.areaframe-4 .abc,.area .areaframe-4 .abc	{background-image: none;}
+.areaframe-4 .aml,.area .areaframe-4 .aml	{background-image: none;}
+.areaframe-4 .amr,.area .areaframe-4 .amr	{background-image: none;}
+.areaframe-4 .amc,.area .areaframe-4 .amc	{background-image: none;}
+/*(areaframe-8)*/
+.areaframe-8 .atl,.area .areaframe-8 .atl	{background-image: none;}
+.areaframe-8 .atr,.area .areaframe-8 .atr	{background-image: none;}
+.areaframe-8 .abl,.area .areaframe-8 .abl	{background-image: none;}
+.areaframe-8 .abr,.area .areaframe-8 .abr	{background-image: none;}
+.areaframe-8 .atc,.area .areaframe-8 .atc	{background-image: none;}
+.areaframe-8 .abc,.area .areaframe-8 .abc	{background-image: none;}
+.areaframe-8 .aml,.area .areaframe-8 .aml	{background-image: none;}
+.areaframe-8 .amr,.area .areaframe-8 .amr	{background-image: none;}
+.areaframe-8 .amc,.area .areaframe-8 .amc	{background-image: none;}
+
+/* ---------- blockframe ---------- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+設定のブロックフレーム
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ブロック外側の下余白
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.framed	{padding-bottom: 0;}
+.frame-1,.frame-2,.frame-3	{margin-bottom: 0;}
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ブロック内側の余白
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.framed .mgn .bmc	{padding: 16px 20px 0;}
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+枠線のみ
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*(frame-1.#FFF)*/
+.type-1 .frame-1 .btl	{background-image: none;}
+.type-1 .frame-1 .btr	{background-image: none;}
+.type-1 .frame-1 .bbl	{background-image: none;}
+.type-1 .frame-1 .bbr	{background-image: none;}
+.type-1 .frame-1 .btc	{background-image: none;}
+.type-1 .frame-1 .bbc	{background-image: none;}
+.type-1 .frame-1 .bml	{background-image: none;}
+.type-1 .frame-1 .bmr	{background-image: none;}
+.type-1 .frame-1 .bmc	{background-image: none;}
+.type-1 .frame-1	{border: 1px solid #C5C5C5;border-color: rgba(0,0,0,.2);}
+/*(frame-1.#000)*/
+.type-2 .frame-1 .btl	{background-image: none;}
+.type-2 .frame-1 .btr	{background-image: none;}
+.type-2 .frame-1 .bbl	{background-image: none;}
+.type-2 .frame-1 .bbr	{background-image: none;}
+.type-2 .frame-1 .btc	{background-image: none;}
+.type-2 .frame-1 .bbc	{background-image: none;}
+.type-2 .frame-1 .bml	{background-image: none;}
+.type-2 .frame-1 .bmr	{background-image: none;}
+.type-2 .frame-1 .bmc	{background-image: none;}
+.type-2 .frame-1	{border: 1px solid #fff;}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+半透明
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*(frame-2.#FFF)*/
+.type-1 .frame-2 .btl	{background-image: none;}
+.type-1 .frame-2 .btr	{background-image: none;}
+.type-1 .frame-2 .bbl {background-image: none;}
+.type-1 .frame-2 .bbr	{background-image: none;}
+.type-1 .frame-2 .btc	{background-image: none;}
+.type-1 .frame-2 .bbc    {background-image: none;}
+.type-1 .frame-2 .bml	{background-image: none;}
+.type-1 .frame-2 .bmr	{background-image: none;}
+.type-1 .frame-2 .bmc	{background-image: none;}
+.type-1 .frame-2	{background-image: url(src/blockskin/type-1/bf2.png);padding:20px;}
+/*(frame-2.#000)*/
+.type-2 .frame-2 .btl	{background-image: none;}
+.type-2 .frame-2 .btr	{background-image: none;}
+.type-2 .frame-2 .bbl {background-image: none;}
+.type-2 .frame-2 .bbr	{background-image: none;}
+.type-2 .frame-2 .btc	{background-image: none;}
+.type-2 .frame-2 .bbc    {background-image: none;}
+.type-2 .frame-2 .bml	{background-image: none;}
+.type-2 .frame-2 .bmr	{background-image: none;}
+.type-2 .frame-2 .bmc	{background-image: none;}
+.type-2 .frame-2	{background-image: url(src/blockskin/type-2/bf2.png); padding:20px;}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+べた塗り
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*(frame-3.#FFF)*/
+.type-1 .frame-3 .btl	{background-image: none;}
+.type-1 .frame-3 .btr	{background-image: none;}
+.type-1 .frame-3 .bbl	{background-image: none;}
+.type-1 .frame-3 .bbr	{background-image: none;}
+.type-1 .frame-3 .btc	{background-image: none;}
+.type-1 .frame-3 .bbc	{background-image: none;}
+.type-1 .frame-3 .bml	{background: none;}
+.type-1 .frame-3 .bmr	{background: none;}
+.type-1 .frame-3 .bmc	{background: none;}
+.type-1 .frame-3	{background-color: #f0f1f3;}
+/*(frame-3.#000)*/
+.type-2 .frame-3 .btl	{background-image: none;}
+.type-2 .frame-3 .btr	{background-image: none;}
+.type-2 .frame-3 .bbl	{background-image: none;}
+.type-2 .frame-3 .bbr	{background-image: none;}
+.type-2 .frame-3 .btc	{background-image: none;}
+.type-2 .frame-3 .bbc	{background-image: none;}
+.type-2 .frame-3 .bml	{background: none;}
+.type-2 .frame-3 .bmr	{background: none;}
+.type-2 .frame-3 .bmc	{background: none;}
+.type-2 .frame-3	{background-color: #252c33;}
+
+/* column setting */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+目次
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.index .col-1,.index .col-2,.index .col-3,.index .col-4,.index .col-5	{margin-left: -10px;margin-right: -10px;}
+.index .cmc,.index .nmc	{padding: 0 10px;}
+.index .col-1 .cmc,.index .col-1 .nmc	{width: 100%;}
+.index .col-2 .cmc,.index .col-2 .nmc	{width: 50%;}
+.index .col-3 .cmc,.index .col-3 .nmc	{width: 33.333%;}
+.index .col-4 .cmc,.index .col-4 .nmc	{width: 25%;}
+.index .col-5 .cmc,.index .col-5 .nmc	{width: 20%;}
+
+/* ---------- pageparts ---------- */
+/* :bindbox */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+動画ポップアップ背景
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+#bindbox .tl,#bindbox .tr,#bindbox .tc,#bindbox .bl,#bindbox .br,#bindbox .bc,#bindbox .ml,#bindbox .mr,#bindbox .mc	{background: #fff;}
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+動画ポップアップ枠
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+#bindbox .tl,#bindbox .tc,#bindbox .tr	{border-top: 1px solid #C5C5C5;}
+#bindbox .tl,#bindbox .ml,#bindbox .bl	{border-left: 1px solid #C5C5C5;}
+#bindbox .tr,#bindbox .mr,#bindbox .br	{border-right: 1px solid #C5C5C5;}
+#bindbox .bl,#bindbox .bc,#bindbox .br	{border-bottom: 1px solid #C5C5C5;}
+#bindbox_image	{padding: 0 0 8px 0;}
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+動画ポップアップコントロール画像
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+#bindbox_back	{background-image: url(src/blockskin/share/bindbox_back.png);}
+#bindbox_back:hover	{background-image: url(src/blockskin/share/bindbox_back.png);opacity: .8;}
+#bindbox_next	{background-image: url(src/blockskin/share/bindbox_next.png);}
+#bindbox_next:hover	{background-image: url(src/blockskin/share/bindbox_next.png);opacity: .8;}
+#bindbox_close	{background-image: url(src/blockskin/share/bindbox_close.png);}
+#bindbox_close:hover	{background-image: url(src/blockskin/share/bindbox_close.png);opacity: .8;}
+#bindbox_note	{background: url(src/blockskin/share/bindbox_note.png) no-repeat left 6px;}
+
+/* :moviebutton */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+動画ボタン
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+a.movieButton	{height: auto;padding: 9px 14px 8px;background: #465064;border-radius: 3px;transition: all .4s;}
+a.movieButton span	{padding: 0;background-image: none;color: #fff;font-weight: bold;}
+a.movieButton:hover	{background: #465064;text-decoration: none;}
+a.movieButton:hover span	{background-image: none;color: #fff;}
+/*(#FFF)*/
+.type-1 a.movieButton	{background: #465064;}
+.type-1 a.movieButton span	 {color: #fff;}
+.type-1 a.movieButton:hover	{background: #2b3949;text-decoration: none;}
+.type-1 a.movieButton:hover span	{color: #fff;}
+/*(#000)*/
+.type-2 a.movieButton	{background: #fff;}
+.type-2 a.movieButton span	{color: #465064;}
+.type-2 a.movieButton:hover	{background: #dadce0;text-decoration: none;}
+.type-2 a.movieButton:hover span	{color: #465064;}
+
+/* :bdset-2 */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+プリント／文字サイズ
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*(#FFF)*/
+.type-1 .bdset-2 .bdprint a,.type-1 .bdset-2 .bdtext a	{width: 42px;height: 16px;margin-right: 1px;background-color: #465064;}
+.type-1 .bdset-2 .bdtext a.size-l,.type-1 .bdset-2 .bdtext a.size-m,.type-1 .bdset-2 .bdtext a.size-s	{width: 21px;}
+.type-1 .bdset-2 .bdprint a:hover,.type-1 .bdset-2 .bdtext a:hover	{background-color: #2b3949;}
+.type-1 .bdset-2 .bdprint a	{background-image: url(src/blockskin/type-1/bdprint2.png);}
+.type-1 .bdset-2 .bdtext a.size-l	{background-image: url(src/blockskin/type-1/bdtext2_l.png);}
+.type-1 .bdset-2 .bdtext a.size-m	{background-image: url(src/blockskin/type-1/bdtext2_m.png);}
+.type-1 .bdset-2 .bdtext a.size-s	{background-image: url(src/blockskin/type-1/bdtext2_s.png);}
+/*(#000)*/
+.type-2 .bdset-2 .bdprint a,.type-2 .bdset-2 .bdtext a	{width: 42px;height: 16px;margin-right: 1px;background-color: #fff;}
+.type-2 .bdset-2 .bdtext a.size-l,.type-2 .bdset-2 .bdtext a.size-m,.type-2 .bdset-2 .bdtext a.size-s	{width: 21px;}
+.type-2 .bdset-2 .bdprint a:hover,.type-2 .bdset-2 .bdtext a:hover	{background-color: #dadce0;}
+.type-2 .bdset-2 .bdprint a	{background-image: url(src/blockskin/type-2/bdprint2.png);}
+.type-2 .bdset-2 .bdtext a.size-l	{background-image: url(src/blockskin/type-2/bdtext2_l.png);}
+.type-2 .bdset-2 .bdtext a.size-m	{background-image: url(src/blockskin/type-2/bdtext2_m.png);}
+.type-2 .bdset-2 .bdtext a.size-s	{background-image: url(src/blockskin/type-2/bdtext2_s.png);}
+
+/* :breadcrumb-1 */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+パンくず
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.breadcrumb-1	{font-size: 80%;}
+/*(#FFF)*/
+.type-1 .breadcrumb-1 a,.type-1 .breadcrumb-1 a:visited	{color: #444;}
+/*(#000)*/
+.type-2 .breadcrumb-1 a,.type-2 .breadcrumb-1 a:visited	{color: #fff;}
+
+/* :link-top */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ページトップへ
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.link-top,.link-top:hover	,.link-top:visited{display: inline-block;font-size:8px; margin-right:30px; margin-top:0px; width:70px;}
+/*(#FFF)*/
+.type-1 .link-top,.type-1 .link-top:hover,.type-1 .link-top:visited{text-decoration: none;background: url(src/blockskin/type-1/pagetop.png) no-repeat right top ; text-align:center; padding:30px 0 26px 0; font-weight:bold; color:#FFFFFF; border-bottom:0;}
+
+/*(#000)*/
+.type-2 .link-top,.type-2 .link-top:hover,.type-2 .link-top:visited{text-decoration: none;background: url(src/blockskin/type-2/pagetop.png) no-repeat right top ; text-align:center; padding:30px 0 26px 0; font-weight:bold; color:#2b3949; border-bottom:0;}
+
+/* :pagenavigation */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ページネーション
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.bdnavi-numbers2	{display: block;font-size: 80%;}
+.bdnavi-numbers2 span.num,.bdnavi-numbers2 a,.bdnavi-numbers2 a:visited	{display: inline-block;color: #444;}
+.bdnavi-numbers2 span.num	{padding: .3ex 1ex 0;margin: 0 2px;background-color: #ecedef;}
+.bdnavi-numbers2 a span.num	{background-color: #fff;}
+.bdnavi-numbers2 a:hover span.num	{background-color: #f0f1f3;color: #3968cc;}
+/*(#FFF)*/
+.type-1 .bdnavi-numbers2 span.num	{border: 1px solid #C5C5C5;border-color: rgba(0,0,0,.2);}
+/*(#000)*/
+
+/* :picture decoration */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+画像のデザイン枠
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*(#FFF)*/
+.type-1 .frill img	{border: 1px solid #444 !important; padding:0 !important;}
+.type-1 .frill a:hover img {border: 1px solid #000 !important; padding:0 !important;}
+/*(#000)*/
+.type-2 .frill img	{border: 1px solid #fff !important; padding:0 !important;}
+.type-2 .frill a:hover img {border: 1px solid #d0d0d0 !important; padding:0 !important;}
+
+
+/* ---------- contents ---------- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+#######共通スタイル切り分け
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+img,a img	{vertical-align: middle;}
+dt	{font-size: 100%; line-height: inherit;}
+dd	{font-size: 100%; line-height: inherit;}
+span.img span	{color: #666;}
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+行間広い
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.lhw h2,
+.lhw h3	{line-height: 1.6;}
+.lhw h4	{line-height: 1.8;}
+.lhw p,
+.lhw p.lead,
+.lhw blockquote,
+.lhw li,
+.lhw th,
+.lhw td,
+.lhw dl,
+.lhw dd	{line-height: 2;}
+.lhw span.img span,
+#area-header .lhw span.img span,
+.side-group .lhw span.img span,
+#area-footer .lhw span.img span	{
+line-height: 1.8;
+}
+
+/*(0-1)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+テキスト
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.block, .block p,.block div { letter-spacing: 0.1em ; line-height:1.8;}
+.block a,.block a:visited	{border-bottom: none;}
+.block a:hover	{background: none;text-decoration: underline;}
+.block span.img a	{background: none;}
+.block span.img a:hover img	{background:none;}
+.block p,.block div.kakomi,.block blockquote,.block ul,.block ol,
+.block .indent {padding-bottom: 10px;}
+p.lead	{font-weight: bold;}
+/*skin-1*/
+.skin-1 a,.skin-1 a:visited	{color: #3968cc;}
+.skin-1 a:hover	{color: #3968cc;}
+.skin-1 span.img a	{ border:0; background:none;}
+.skin-1 span.img a img,.skin-1 span.img a:hover img	{ padding:1px;}
+.skin-1 span.img a:hover { border:0; background:none;}
+.skin-1 span.img a:hover img { border:0; background:#3968cc;}
+.skin-1 p,
+.skin-1 p.lead,
+.skin-1 div.kakomi,
+.skin-1 blockquote,
+.skin-1 ul,
+.skin-1 ol,
+.skin-1 li,
+.skin-1 .lined dt,
+.skin-1 .lined dd,
+.skin-1 .tabular th,
+.skin-1 .tabular td,
+.skin-1 .bubble th,
+.skin-1 .bubble td,
+.album .skin-1 td.cmc,
+.album .skin-1 .img .mc {color: #444;}
+.skin-1 .affix,
+.skin-1 .blockquote,
+.skin-1 p.note,
+.skin-1 address	{color: #666;}
+/*skin-2*/
+.skin-2 a,.skin-2 a:visited	{color: #98b8d8;}
+.skin-2 a:hover	{color: #98b8d8;}
+.skin-1 span.img a	{ border:0; background:none;}
+.skin-2 span.img a img,.skin-2 span.img a:hover img	{ padding:1px;}
+.skin-2 span.img a:hover { border:0; background:none;}
+.skin-2 span.img a:hover img { border:0; background:#98b8d8;}
+.skin-2 p,
+.skin-2 p.lead,
+.skin-2 div.kakomi,
+.skin-2 blockquote,
+.skin-2 ul,
+.skin-2 ol,
+.skin-2 li,
+.skin-2 .lined dt,
+.skin-2 .lined dd,
+.skin-2 .tabular th,
+.skin-2 .tabular td,
+.skin-2 .bubble th,
+.skin-2 .bubble td,
+.album .skin-2 td.cmc,
+.album .skin-2 .img .mc	{color: #f0f0f0;}
+.skin-2 .affix,
+.skin-2 .blockquote,
+.skin-2 p.note,
+.skin-2 address	{color: #e0e0e0;}
+.skin-2 p.lead	{color: #fff;}
+
+/*(0-2)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+リスト：記号リスト
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.block .disc	{margin: 0;}
+.block .disc li	{ font-size:1.2em; margin-left:0;  margin-bottom:0.8em; padding-left:1em; list-style-position: inside; list-style-type:none;  background-image: url(src/blockskin/share/link01.png);background-repeat:no-repeat; background-position:left 0.3em;}
+.block .disc li ul li  {font-size:0.8em !important ;  margin-left: 0; margin-top:0.8em; padding-left: 1em; list-style-position: inside; list-style-type:none; background-image: url(src/blockskin/share/link02.png);background-repeat:no-repeat;background-position:left 0.35em;}
+
+/*skin-1*/
+.skin-1  .disc li a, .skin-1 .disc li a:visited { color:#444;}
+.skin-1  .disc li a:hover {color:#13529a; text-decoration:none;}
+
+/*skin-2*/
+.skin-2  .disc li a, .skin-2 .disc li a:visited { color:#fff;}
+.skin-2  .disc li a:hover {color:#bccee6; text-decoration:none;}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+リスト：マークなし
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.block .none	{margin: 0;}
+.block .none li	{margin-left: 0;padding-left: 0;background-image: none;}
+.block li .none li	{margin-left: 2em;}
+
+/*(0-3)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+区切線
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 .hr,
+.skin-2 .hr	{
+display: block;
+margin: 2em 0;
+padding-bottom:0;
+height: 0px;
+background: none;
+border: 0;
+}
+/*skin-1*/
+.skin-1 .hr	{
+border-top: 1px solid #2b3949;
+}
+/*skin-2*/
+.skin-2 .hr	{
+border-top: 1px solid #2b3949;
+}
+
+/*(1)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+タイトル
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 h2,
+.skin-2 h2	{
+margin-bottom: .5em;
+font-size: 2.68em;
+font-weight: bold;
+}
+/*skin-1*/
+.skin-1 h2,
+.skin-1 h2 a	{
+color: #333;
+}
+/*skin-2*/
+.skin-2 h2,
+.skin-2 h2 a	{
+color: #fff;
+}
+
+/*(2)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+大見出し
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 h3,
+.skin-2 h3	{
+margin-bottom:10px;
+padding-left: .8em;
+font-size: 2.2em;
+letter-spacing:0.2em;
+font-weight: bold;
+list-style-position: inside; list-style-type:none;  background-image: url(src/blockskin/share/h3.png);background-repeat:no-repeat; background-position:left center;
+}
+/*skin-1*/
+.skin-1 h3,
+.skin-1 h3 a	{
+color: #333;
+}
+.skin-1 h3	{
+border-bottom:;
+}
+/*skin-2*/
+.skin-2 h3,
+.skin-2 h3 a	{
+color: #fff;
+}
+.skin-2 h3	{
+border-bottom:;
+}
+
+/*(3)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+小見出し
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 h4,
+.skin-2 h4	{
+padding-bottom: .2em;
+font-size: 1.6em;
+letter-spacing:0.1em;
+font-weight: bold;
+display:inline;
+line-height:1.6;
+}
+
+.skin-1 h4+*,
+.skin-2 h4+*
+{ margin-top:20px;}
+
+/*skin-1*/
+.skin-1 h4	{
+background: url(src/blockskin/skin-1/h4.png) repeat-x bottom;
+color: #2b3949;
+}
+/*skin-2*/
+.skin-2 h4	{
+background: url(src/blockskin/skin-2/h4.png) repeat-x bottom;
+color: #fff;
+}
+
+/*(4)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+リード
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 p.lead,
+.skin-2 p.lead {
+padding-bottom: .5em;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+/*skin-1*/
+.skin-1  p.lead {
+color: #ec7b6f;
+}
+/*skin-2*/
+.skin-2 p.lead {
+color: #fdffd7;
+}
+
+
+/*(5)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+引用
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+blockquote	{
+margin-left: 0;
+margin-right: 0;
+}
+.skin-1 .blockquote,
+.skin-2 .blockquote	{
+display: block;
+margin-left: 2em;
+padding: .5em 0 .5em 1em;
+background-image: none;
+border-left-width: 2px;
+border-left-style: solid;
+}
+/*skin-1*/
+.skin-1 .blockquote	{
+border-left-color: #5d7ea4;
+}
+/*skin-2*/
+.skin-2 .blockquote	{
+border-left-color: #5d7ea4;
+}
+
+/*(6)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+囲み
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+div.kakomi {
+margin-left: 0;
+margin-right: 0;
+}
+.skin-1 p.kakomi ,
+.skin-2 p.kakomi	{
+margin-left: 0;
+padding: 1em;
+border: none;
+}
+/*skin-1*/
+.skin-1 p.kakomi	{
+background-color: #fff;
+border: 1px solid #415b79;
+}
+/*skin-2*/
+.skin-2 p.kakomi	{
+background-color: #192532;
+border: 1px solid #2b3949;
+}
+
+/*(7)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+注釈
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.block p.note	{padding-left: 0;}
+/*(8)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+コピーライト
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.skin-1 address	{color:#000000; margin:0; padding:0 0 10px 0; line-height:1;}
+.skin-2 address	{color:#FFFFFF; margin:0; padding:0 0 10px 0; line-height:1;}
+/*(9)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+インデント
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.lined,.tabular,.bubble	{margin-left: 0;margin-right: 0;}
+.indent td	{ width: 80%;}
+.affix	{font-size: 90%;}
+
+/*(9-1)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+通常インデント
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 .lined dt,
+.skin-2 .lined dt	{
+border-bottom-width: 1px;
+border-bottom-style: solid;
+font-weight: bold;
+font-size:1.3em;
+padding-top:20px;
+}
+.skin-1 .lined dd,
+.skin-2 .lined dd	{
+margin:.5em  1em .5em 1em;
+}
+
+.skin-1 .lined .affix,
+.skin-2 .lined .affix	{
+margin:.5em  1em .5em 1em;
+}
+/*skin-1*/
+.skin-1 .lined dt	{
+border-bottom: 3px solid #f0f4f9;
+}
+/*skin-2*/
+.skin-2 .lined dt	{
+border-bottom: 3px solid #5d7ea4;
+}
+
+/*(9-2)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+テーブルインデント
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.skin-1 .tabular .table,
+.skin-2 .tabular .table	{
+border:none;
+}
+
+.skin-1 .tabular th,.skin-1 .tabular td,
+.skin-2 .tabular th,.skin-2 .tabular td	{
+padding: 1em;
+border:none;
+font-size:1.2em;
+text-align:left;
+vertical-align:top;
+}
+.skin-1 .tabular .balloon,
+.skin-2 .tabular .balloon	{
+margin: 0;
+}
+.skin-1 .tabular .affix,
+.skin-2 .tabular .affix	{
+margin: .5em 0 0;
+padding-bottom: 0;
+}
+
+
+/*skin-1*/
+
+.skin-1 .tabular .table tr{
+	background-image: url(src/blockskin/skin-1/line.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+.skin-1 .tabular th,
+.skin-1 .tabular td	{
+border:none;
+}
+/*skin-2*/
+
+.skin-2 .tabular .table tr	{
+	background-image: url(src/blockskin/skin-2/line.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+.skin-2 .tabular th,
+.skin-2 .tabular td	{
+border:none;
+}
+
+/*(9-3)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ニュースインデント
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+
+.skin-1 .bubble,
+.skin-2 .bubble{
+	border-color: inherit;
+	padding:30px 30px 20px 30px;
+	margin:0px;
+	font-size:1.2em;
+
+	}
+
+
+.skin-1 .bubble th,
+.skin-2 .bubble th	{
+padding: 0;
+border: none;
+background: none;
+text-align:right;
+}
+.skin-1 .bubble td,
+.skin-2 .bubble td	{
+padding: 0 0 0 1em;
+border: none;
+background: none;
+text-align: left;
+width:87%;
+}
+.skin-1 .bubble .balloon,
+.skin-2 .bubble .balloon	{margin:0 0 1em 0; padding-left: 2em; list-style-position: inside; list-style-type:none; background-image: url(src/blockskin/share/news.png);background-repeat:no-repeat;background-position:left 0.3em;
+}
+.skin-1 .bubble .affix,
+.skin-2 .bubble .affix	{
+margin: .5em 3em 1em ;
+padding-bottom: 0;
+}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+sync form
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.indent .sync_form td{
+width:75%;
+	}
+.indent .sync_form td textarea{
+	width:100%;
+	max-width:800px;
+}
+
+
+/*(10)(11)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+タブ　opt-1-4 横並び／opt-5-8  縦並び
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.tab .skin-1 h2,
+.tab .skin-2 h2	{
+margin: 0;
+}
+.tab .skin-1 .opt-1 h2,.tab .skin-1 .opt-2 h2,.tab .skin-1 .opt-3 h2,.tab .skin-1 .opt-4 h2,.tab .skin-1 .opt-5 h2,.tab .skin-1 .opt-6 h2,.tab .skin-1 .opt-7 h2,.tab .skin-1 .opt-8 h2,
+.tab .skin-2 .opt-1 h2,.tab .skin-2 .opt-2 h2,.tab .skin-2 .opt-3 h2,.tab .skin-2 .opt-4 h2,.tab .skin-2 .opt-5 h2,.tab .skin-2 .opt-6 h2,.tab .skin-2 .opt-7 h2,.tab .skin-2 .opt-8 h2	{
+padding: 9px 12px 8px;
+}
+.tab .skin-1 .opt-1 .bwrap,.tab .skin-1 .opt-2 .bwrap,.tab .skin-1 .opt-3 .bwrap,.tab .skin-1 .opt-4 .bwrap,.tab .skin-1 .opt-5 .bwrap,.tab .skin-1 .opt-6 .bwrap,.tab .skin-1 .opt-7 .bwrap,.tab .skin-1 .opt-8 .bwrap,
+.tab .skin-2 .opt-1 .bwrap,.tab .skin-2 .opt-2 .bwrap,.tab .skin-2 .opt-3 .bwrap,.tab .skin-2 .opt-4 .bwrap,.tab .skin-2 .opt-5 .bwrap,.tab .skin-2 .opt-6 .bwrap,.tab .skin-2 .opt-7 .bwrap,.tab .skin-2 .opt-8 .bwrap	{
+border-width: 1px;
+border-style: solid;
+background-color: transparent;
+}
+.tab .skin-1 .opt-1 .box,.tab .skin-1 .opt-2 .box,.tab .skin-1 .opt-3 .box,.tab .skin-1 .opt-4 .box,.tab .skin-1 .opt-5 .box,.tab .skin-1 .opt-6 .box,.tab .skin-1 .opt-7 .box,.tab .skin-1 .opt-8 .box,
+.tab .skin-2 .opt-1 .box,.tab .skin-2 .opt-2 .box,.tab .skin-2 .opt-3 .box,.tab .skin-2 .opt-4 .box,.tab .skin-2 .opt-5 .box,.tab .skin-2 .opt-6 .box,.tab .skin-2 .opt-7 .box,.tab .skin-2 .opt-8 .box	{
+padding: 24px 24px 8px;
+}
+/*skin-1*/
+.tab .skin-1 h2	{
+background-color: #2b3949;
+color: #fff;
+}
+.tab .skin-1 h2:hover,
+.tab .skin-1 .cr h2	{
+background-color: #465064;
+color: #fff;
+}
+.tab .opt-1 .skin-1 .bwrap,.tab .opt-2 .skin-1 .bwrap,.tab .opt-3 .skin-1 .bwrap,.tab .opt-4 .skin-1 .bwrap,.tab .opt-5 .skin-1 .bwrap,.tab .opt-6 .skin-1 .bwrap,.tab .opt-7 .skin-1 .bwrap,.tab .opt-8 .skin-1 .bwrap	{
+border-color: #465064;
+}
+/*skin-2*/
+.tab .skin-2 h2	{
+background-color: #e0e0e0;
+color: #2b3949;
+}
+.tab .skin-2 h2:hover,
+.tab .skin-2 .cr h2	{
+background-color: #5d7ea4;
+color: #fff;
+}
+.tab .opt-1 .skin-2 .bwrap,.tab .opt-2 .skin-2 .bwrap,.tab .opt-3 .skin-2 .bwrap,.tab .opt-4 .skin-2 .bwrap,.tab .opt-5 .skin-2 .bwrap,.tab .opt-6 .skin-2 .bwrap,.tab .opt-7 .skin-2 .bwrap,.tab .opt-8 .skin-2 .bwrap	{
+border-color: #2b3949;
+}
+
+/* cohtab */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+タブ／スライド形式
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+.tab .cohtab .h2 {
+margin-right: 1px;
+padding: 0;
+}
+.tab .cohtab .h2 h2 {
+position: relative;
+background: #2b3949;
+padding: 9px 12px 8px;
+}
+.tab .cohtab .h2.active h2:before {
+content: "";
+position: absolute;
+top: -8px;
+left: 50%;
+margin-left: -4px;
+display: block;
+width: 0;
+height: 0;
+border: 4px solid transparent;
+border-bottom-color: #465064;
+}
+.type-1 ~ .cohtab .h2 h2 {
+background: #2b3949;
+color: #fff;
+}
+.type-1 ~ .cohtab .h2.active h2 {
+background: #465064;
+color: #fff;
+}
+.type-2 ~ .cohtab .h2 h2 {
+background: #e0e0e0;
+color: #333;
+}
+.type-2 ~ .cohtab .h2.active h2 {
+background: #fff;
+color: #333;
+}
+.type-2 ~ .cohtab .h2.active h2:before {
+border-bottom-color: #fff;
+}
+
+/*(12)*/
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+アコーディオン
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.accordion .skin-1 .h2,
+.accordion .skin-2 .h2	{
+margin: 0 0 1px;
+background: none;
+}
+.accordion .skin-1 h2,
+.accordion .skin-2 h2	{
+padding: 9px 12px 8px;
+}
+.accordion .skin-1 h2:before,
+.accordion .skin-2 h2:before	{
+content: "";
+display: inline-block;
+width: 0;
+height: 0;
+margin-right: .5em;
+border: .4em solid transparent;
+}
+.accordion .skin-1 .cr h2:before,
+.accordion .skin-2 .cr h2:before	{
+border-bottom-width: .2em;
+border-left-color: transparent;
+}
+.accordion .skin-1 .box,
+.accordion .skin-2 .box	{
+padding: 24px 0 8px;
+}
+/*skin-1*/
+.accordion .skin-1 h2	{
+background-color: #2b3949;
+color: #fff;
+}
+.accordion .skin-1 h2:hover,
+.accordion .skin-1 .cr h2	{
+background-color: #465064;
+color: #fff;
+}
+.accordion .skin-1 h2:before	{
+border-left-color: #fff;
+}
+.accordion .skin-1 .cr h2:before	{
+border-top-color: #fff;
+}
+/*skin-2*/
+.accordion .skin-2 h2	{
+background-color: #e0e0e0;
+color: #333;
+}
+.accordion .skin-2 h2:hover,
+.accordion .skin-2 .cr h2	{
+background-color: #5d7ea4;
+color: #fff;
+}
+.accordion .skin-2 h2:before	{
+border-left-color: #465064;
+}
+.accordion .skin-2 .cr h2:before	{
+border-top-color: #fff;
+}
+
+
+/* ---------- menu ---------- */
+/* :menuh */
+/* ^-^-^-^-^-^-^-
+スキン白
+^-^-^-^-^-^-^-^-*/
+.type-1 .menuh .nolink,
+.type-1 .menuv .nolink	{
+color: #999;
+}
+/* ^-^-^-^-^-^-^-
+スキン黒
+^-^-^-^-^-^-^-^-*/
+.type-2 .menuh .nolink,
+.type-2 .menuv .nolink	{
+color: #C5C5C5;
+}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+シンプルカラー小
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.menuh .menu-a li,
+.menuh .menu-a li.top{
+border-left: none !important ;
+border-right: none !important ; }
+
+.type-1 .menuh .menu-a a:hover,
+.type-1 .menuh .menu-a .cr,
+.type-1 .menuh .menu-a .cr:hover,
+.type-2 .menuh .menu-a a:hover,
+.type-2 .menuh .menu-a .cr,
+.type-2 .menuh .menu-a .cr:hover	{
+background:none;
+border-top:#dc3f2f solid 1px ;
+margin-top: -1px;
+color: inherit;
+text-decoration: none;
+}
+.type-1 .menuh .menu-a a,
+.type-1 .menuh .menu-a .nolink,
+.type-2 .menuh .menu-a a,
+.type-2 .menuh .menu-a .nolink		{
+padding: .5em 0;
+margin: 0 1em;
+}
+
+/*(13-A.h.#FFF)*/
+.type-1 .menuh .menu-a a	{
+color: #333;
+}
+/*(13-A.h.#000)*/
+.type-2 .menuh .menu-a a	{
+color: #fff;
+}
+
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+シンプルカラー大
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.menuh .menu-b li,
+.menuh .menu-b li.top{
+border-left: none !important ;
+border-right: none !important ; }
+
+.type-1 .menuh .menu-b a,
+.type-1 .menuh .menu-b .nolink,
+.type-2 .menuh .menu-b a,
+.type-2 .menuh .menu-b .nolink	{
+padding: .5em 0;
+margin: 0 1em;
+}
+.type-1 .menuh .menu-b a:hover,
+.type-1 .menuh .menu-b .cr,
+.type-1 .menuh .menu-b .cr:hover,
+.type-2 .menuh .menu-b a:hover,
+.type-2 .menuh .menu-b .cr,
+.type-2 .menuh .menu-b .cr:hover	{
+background:none;
+border-top:#dc3f2f solid 3px ;
+margin-top: -3px;
+color: inherit;
+text-decoration: none;
+}
+
+/*(13-B.h.#FFF)*/
+.type-1 .menuh .menu-b a	{
+color: #333;}
+
+/*(13-B.h.#000)*/
+.type-2 .menuh .menu-b a	{
+color: #fff;}
+
+/* ---------- menu (D)  ---------- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+メニュー D
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+
+/* :menuv */
+.menuv ul	{ padding-bottom:0;}
+.menuv .menu-d ul	{ padding-bottom:0;}
+.menuv .menu-d li ul	{ padding-bottom:0;}
+.menuv a,.menuv a:visited,.menuv .cr	{ border:none; background-color:transparent;}
+/*(13-D.v.#FFF)*/
+.type-1 .menuv .menu-d .li1 .mc	{ padding:0;}
+.type-1 .menuv .menu-d a	{ padding-left:15px; background:none; color:#000; text-decoration:none;}
+.type-1 .menuv .menu-d a:hover	{ padding-left:14px; background:none; color:#2b3949; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-1 .menuv .menu-d .li1	{ margin-bottom:1em;}
+.type-1 .menuv .menu-d .tl,.type-1 .menuv .menu-d .tr,.type-1 .menuv .menu-d .bl,.type-1 .menuv .menu-d .br	{ height:0; background:none;}
+.type-1 .menuv .menu-d .tc,.type-1 .menuv .menu-d .bc	{ height:0; background:none;}
+.type-1 .menuv .menu-d .ml,.type-1 .menuv .menu-d .mr	{ background:none;}
+.type-1 .menuv .menu-d .mc	{ padding:0; background:none;}
+.type-1 .menuv .menu-d .li1:hover .tl,.type-1 .menuv .menu-d .li1:hover .tr,.type-1 .menuv .menu-d .li1:hover .bl,.type-1 .menuv .menu-d .li1:hover .br	{ background:none; }
+.type-1 .menuv .menu-d .li1:hover .tc,.type-1 .menuv .menu-d .li1:hover .bc	{ background:none;}
+.type-1 .menuv .menu-d .li1:hover .ml,.type-1 .menuv .menu-d .li1:hover .mr	{ background:none;}
+.type-1 .menuv .menu-d .li1:hover .mc	{ background:none;}
+.type-1 .menuv .menu-d .li1:hover a	{ color:#000;}
+.type-1 .menuv .menu-d .nolink:hover .tl,.type-1 .menuv .menu-d .nolink:hover .tr,.type-1 .menuv .menu-d .nolink:hover .bl,.type-1 .menuv .menu-d .nolink:hover .br,.type-1 .menuv .menu-d .nolink:hover .tc,.type-1 .menuv .menu-d .nolink:hover .bc,.type-1 .menuv .menu-d .nolink:hover .ml,.type-1 .menuv .menu-d .nolink:hover .mr	{ background:none;}
+.type-1 .menuv .menu-d .nolink:hover .mc	{  background:none;}
+.type-1 .menuv .menu-d .nolink span	{ padding-left:15px; background:none; color:#999;}
+.type-1 .menuv .menu-d .cr .tl,.type-1 .menuv .menu-d .cr .tr,.type-1 .menuv .menu-d .cr .bl,.type-1 .menuv .menu-d .cr .br	{ background:none !important;}
+.type-1 .menuv .menu-d .cr .tc,.type-1 .menuv .menu-d .cr .bc	{ background:none !important;}
+.type-1 .menuv .menu-d .cr .ml,.type-1 .menuv .menu-d .cr .mr	{ background:none !important;}
+.type-1 .menuv .menu-d .cr .mc	{ background:none !important;}
+.type-1 .menuv .menu-d .cr .mn1	{ padding-left:14px; background:none; color:#2b3949; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-1 .menuv .menu-d .li2,
+.type-1 .menuv .menu-d .li3,
+.type-1 .menuv .menu-d .li4	{ padding-left:20px;}
+.type-1 .menuv .menu-d .mn2,
+.type-1 .menuv .menu-d .mn3,
+.type-1 .menuv .menu-d .mn4	{ padding-left:10px; background:none; margin-bottom:10px;}
+.type-1 .menuv .menu-d .mn2:hover,
+.type-1 .menuv .menu-d .mn3:hover,
+.type-1 .menuv .menu-d .mn4:hover	{ padding-left:9px;background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-1 .menuv .menu-d .li2 .cr,
+.type-1 .menuv .menu-d .li3 .cr,
+.type-1 .menuv .menu-d .li4 .cr,
+.type-1 .menuv .menu-d .li2 .cr:hover,
+.type-1 .menuv .menu-d .li3 .cr:hover,
+.type-1 .menuv .menu-d .li4 .cr:hover	{  padding-left:9px;background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-1 .menuv .menu-d .li2 .nolink,
+.type-1 .menuv .menu-d .li2 .nolink:hover,
+.type-1 .menuv .menu-d .li3 .nolink,
+.type-1 .menuv .menu-d .li3 .nolink:hover,
+.type-1 .menuv .menu-d .li4 .nolink,
+.type-1 .menuv .menu-d .li4 .nolink:hover	{ background:none; padding:0 0 10px !important; border-left: none;}
+
+/*(13-D.v.#000)*/
+.type-2 .menuv .menu-d .li1 .mc	{ padding:0;}
+.type-2 .menuv .menu-d a	{ padding-left:15px; background:none; color:#fff !important; text-decoration:none;}
+.type-2 .menuv .menu-d a:hover	{ padding-left:14px; background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-2 .menuv .menu-d .li1	{ margin-bottom:1em;}
+.type-2 .menuv .menu-d .tl,.type-2 .menuv .menu-d .tr,.type-2 .menuv .menu-d .bl,.type-2 .menuv .menu-d .br	{ height:0; background:none;}
+.type-2 .menuv .menu-d .tc,.type-2 .menuv .menu-d .bc	{ height:0; background:none;}
+.type-2 .menuv .menu-d .ml,.type-2 .menuv .menu-d .mr	{ background:none;}
+.type-2 .menuv .menu-d .mc	{ padding:0; background:none;}
+.type-2 .menuv .menu-d .li1:hover .tl,.type-2 .menuv .menu-d .li1:hover .tr,.type-2 .menuv .menu-d .li1:hover .bl,.type-2 .menuv .menu-d .li1:hover .br	{ background:none; }
+.type-2 .menuv .menu-d .li1:hover .tc,.type-2 .menuv .menu-d .li1:hover .bc	{ background:none;}
+.type-2 .menuv .menu-d .li1:hover .ml,.type-2 .menuv .menu-d .li1:hover .mr	{ background:none;}
+.type-2 .menuv .menu-d .li1:hover .mc	{ background:none;}
+.type-2 .menuv .menu-d .li1:hover a	{ color:#fff;}
+.type-2 .menuv .menu-d .nolink .mn1 {
+ color:#d3d3d3; }
+.type-2 .menuv .menu-d .nolink:hover .tl,.type-2 .menuv .menu-d .nolink:hover .tr,.type-2 .menuv .menu-d .nolink:hover .bl,.type-2 .menuv .menu-d .nolink:hover .br,.type-2 .menuv .menu-d .nolink:hover .tc,.type-2 .menuv .menu-d .nolink:hover .bc,.type-2 .menuv .menu-d .nolink:hover .ml,.type-2 .menuv .menu-d .nolink:hover .mr	,.type-2 .menuv .menu-d .nolink:hover .mc	{  background:none;}
+.type-2 .menuv .menu-d .nolink span	{ padding-left:15px; background:none;}
+.type-2 .menuv .menu-d .cr .tl,.type-2 .menuv .menu-d .cr .tr,.type-2 .menuv .menu-d .cr .bl,.type-2 .menuv .menu-d .cr .br	{ background:none !important;}
+.type-2 .menuv .menu-d .cr .tc,.type-2 .menuv .menu-d .cr .bc	{ background:none !important;}
+.type-2 .menuv .menu-d .cr .ml,.type-2 .menuv .menu-d .cr .mr	{ background:none !important;}
+.type-2 .menuv .menu-d .cr .mc	{ background:none !important;}
+.type-2 .menuv .menu-d .cr .mn1	{ padding-left:14px; background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-2 .menuv .menu-d .li2,
+.type-2 .menuv .menu-d .li3,
+.type-2 .menuv .menu-d .li4	{ padding-left:20px;}
+.type-2 .menuv .menu-d .mn2,
+.type-2 .menuv .menu-d .mn3,
+.type-2 .menuv .menu-d .mn4	{ padding-left:10px; background:none; margin-bottom:10px;}
+.type-2 .menuv .menu-d .mn2:hover,
+.type-2 .menuv .menu-d .mn3:hover,
+.type-2 .menuv .menu-d .mn4:hover	{ padding-left:9px;background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-2 .menuv .menu-d .li2 .cr,
+.type-2 .menuv .menu-d .li3 .cr,
+.type-2 .menuv .menu-d .li4 .cr,
+.type-2 .menuv .menu-d .li2 .cr:hover,
+.type-2 .menuv .menu-d .li3 .cr:hover,
+.type-2 .menuv .menu-d .li4 .cr:hover	{  padding-left:9px;background:none; text-decoration:none; border-left:1px #dc3f2f solid;}
+.type-2 .menuv .menu-d .li2 .nolink,
+.type-2 .menuv .menu-d .li2 .nolink:hover,
+.type-2 .menuv .menu-d .li3 .nolink,
+.type-2 .menuv .menu-d .li3 .nolink:hover,
+.type-2 .menuv .menu-d .li4 .nolink,
+.type-2 .menuv .menu-d .li4 .nolink:hover	{ background:none; padding:0 0 10px !important; border-left: none;color:#d3d3d3;}
+
+/* ---------- menu (H)  ---------- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+サイド・シズル
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.motion-h .menu-motion { list-style: none; margin: 0; padding: 0; position: relative; z-index: 5;}
+.motion-h .menu-motion li { float: none; border:0;}
+.motion-h .menu-motion li a,.motion-h .menu-motion li .nolink { display: block; width: 150px; padding: 13px 15px; margin: 0; margin-bottom: 3px; font-size: 12px; border-radius: 3px; text-decoration: none;  background:#2b3949 repeat-y;}
+.motion-h .menu-motion li a { color: #dcdddd; }
+.motion-h .menu-motion li a:hover { color: #ffff66; }
+
+/* ---------- menu (J) ---------- */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-
+ラインチェイサー
+^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^- */
+/*share*/
+.type-1 .motion-j .menu-motion, .type-2 .motion-j .menu-motion {
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+.type-1 .motion-j .menu-motion ul, .type-2 .motion-j .menu-motion ul	{
+padding-left:75px;
+text-align: center;
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+.type-1 .motion-j .menu-motion li, .type-2 .motion-j .menu-motion li	{
+float: none;
+display: inline-block;
+margin-right: 60px;
+}
+
+/*skin-1*/
+.skin-1 .motion-j .menu-motion li a { color: #2b3949 !important; }
+.skin-1 .motion-j .menu-motion li a:hover { color: #13529a !important; }
+.skin-1 .motion-j .back { border-top: 1px solid #dc3f2f !important ; top:15px; }
+
+/*skin-2*/
+.skin-2 .motion-j .menu-motion li a { color: #fff !important; }
+.skin-2 .motion-j .menu-motion li a:hover { color: #bccee6 !important; }
+.skin-2 .motion-j .back { border-top: 1px solid #dc3f2f !important ; top:15px;}
+
+/* ---------- block layout ---------- */
+/* index */
+ .index .skin-1 .table, .index .skin-2 .table {margin-bottom:30px;}
+
+
+/* ---------- overwrite adjustment (KEEP BELOW AS IS) ---------- */
+.tab .skin-5 .h2 .mc,
+.tab .skin-6 .h2 .mc	{
+background-color: transparent;
+}
+.tab .skin-3 h2,
+.accordion .skin-3 h2	{
+color: #444;
+}
+.tab .skin-4 h2,
+.accordion .skin-4 h2	{
+color: #C5C5C5;
+}
+.skin-1 li ul,
+.skin-1 li ol,
+.skin-2 li ul,
+.skin-2 li ol	{
+padding-bottom: 0;
+}

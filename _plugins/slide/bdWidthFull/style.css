@@ -1,0 +1,88 @@
+.box_widthFull{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.box_widthFull > ul{
+	position: relative;
+	list-style: none;
+	margin: 0px;
+}
+
+.box_widthFull > ul:after{
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+
+.box_widthFull > ul > li{
+	position: absolute;
+	float: left;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	line-height: 1.0;
+}
+
+.box_widthFull > ul > li a {
+	border: none;
+	padding: 0px;
+}
+
+.box_widthFull > ul > li a img {
+	padding:0px;
+}
+
+.box_widthFull > ul > li div{
+	padding: 20px;
+	bottom: 10px;
+	left: 20px;
+	right: 20px;
+	z-index: 1000;
+	position: absolute;
+	background: #CBBFAE;
+	background: rgba(190,176,155, 0.4);
+	border-left: 4px solid rgba(255,255,255,0.7);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);	
+	opacity: 0.7;
+	color: #fff;
+
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+/*	transition: all 200ms;*/
+}
+
+.box_widthFull > ul > li div h3{
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	text-align: left;
+    word-wrap: break-word;
+}
+
+/* mobile */
+.box_widthFull > ul > li div.mb-title{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    padding: 10px;
+}
+
+.box_widthFull > ul > li div h3.mb-title{
+    font-size: 12px;
+}
+
+.box_widthFull span.map{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	cursor:pointer;
+}

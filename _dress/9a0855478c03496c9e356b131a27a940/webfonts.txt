@@ -1,0 +1,2 @@
+
+<link href="//fonts.googleapis.com/css?family=FOT-マティスV Pro L:element,mincho,fonttype56,light" rel="stylesheet" type="text/css">

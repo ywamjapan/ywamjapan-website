@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+.pan-window {
+	position: relative;
+	overflow: hidden;
+	background: #131310;
+}
+
+.pan-window .boat {
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+.pan-window .boat .img-wrap {
+	float: left;
+	display:inline;
+}
+
+/* bug fix */
+.pan-window a img {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.ac .pan-window {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ar .pan-window {
+	float:right;
+}
+
+/* message board */
+.pan-window .message {
+	height: 20px;
+	/*width: 400px;*/
+	width: 100%;
+	/*left: 20px;
+	bottom: 0px;*/
+	position: absolute;
+	left: 0px;
+}
+.pan-window .message .message-bk {
+	min-height: 20px;
+	/*width: 400px;
+	width: 100%;*/
+	position: absolute;
+	left: 0px;
+	text-align: left;
+	padding: 5px 10px;
+	background: #000;
+}
+.pan-window .message .message-bk * {
+	visibility: hidden;
+}
+.pan-window .message .message-text {
+	height: 40px;
+	/*width: 400px;
+	width: 100%;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #ffffff;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+/* direction nav */
+.pan-window .navctl {
+	position: absolute;
+	bottom: 5px;
+	z-index:99;
+	cursor:pointer;
+	width: 22px;
+	height: 22px;
+	display: block;
+	background-color: transparent;
+}
+
+.pan-window .prevNav {
+	left:5px;
+	background: url(arrow.png);
+}
+.pan-window .prevNav:hover {
+	background: url(arrow.png) 0px 22px;
+}
+.pan-window .nextNav {
+	right:5px;
+	background: url(arrow.png) 22px 0px;
+}
+.pan-window .nextNav:hover {
+	background: url(arrow.png) 22px 22px;
+}
+
+/* dots nav */
+.pan-window .dotsNav {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 45%;
+	bottom: 4px;
+}
+
+.pan-window .dotsNav .dots {
+	margin-right: 4px;
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: url(select.png) 0px 10px;
+}
+.pan-window .dotsNav .dots:hover {
+	background: url(select.png) 0px 0px;
+}
+.pan-window .dotsNav .dots.on {
+	background: url(select.png) 0px 0px;
+}
+.pan-window .dotsNav .dots .on:hover {
+	background: url(select.png) 0px 0px;
+}

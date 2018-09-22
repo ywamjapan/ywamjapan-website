@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.shift03 {
+	position: relative;
+	overflow: hidden;
+}
+
+.shift03 .boat {
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+.shift03 .boat div {
+	float: left;
+}
+
+.shift03 .boat a, .shift03 .boat img  {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* message board */
+.shift03 .message {
+	height: 40px;
+	width: 400px;
+	left: 20px;
+	position: absolute;
+}
+.shift03 .message .message-bk {
+	min-height: 40px;
+	width: 400px;
+	position: absolute;
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+	background: #333333;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+}
+.shift03 .message .message-bk * {
+	visibility: hidden;
+}
+.shift03 .message .message-text {
+	height: 40px;
+	width: 400px;
+	position: absolute;
+	top: 0px;
+	color: #ffffff;
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+
+/* direction nav */
+.shift03 .navctl {
+	position: absolute;
+	bottom: 5px;
+	z-index:99;
+	cursor:pointer;
+	width: 22px;
+	height: 22px;
+	display: block;
+	background-color: transparent;
+}
+
+.shift03 .prevNav {
+	left:5px;
+	background: url(arrow.png);
+}
+.shift03 .prevNav:hover {
+	background: url(arrow.png) 0px 22px;
+}
+.shift03 .nextNav {
+	right:5px;
+	background: url(arrow.png) 22px 0px;
+}
+.shift03 .nextNav:hover {
+	background: url(arrow.png) 22px 22px;
+}
+
+/* dots nav */
+.shift03 .dotsNav {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 45%;
+	bottom: 4px;
+}
+
+.shift03 .dotsNav .dots {
+	margin-right: 4px;
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: url(select.png) 0px 10px;
+}
+.shift03 .dotsNav .dots:hover {
+	background: url(select.png) 0px 0px;
+}
+.shift03 .dotsNav .dots.on {
+	background: url(select.png) 0px 0px;
+}
+.shift03 .dotsNav .dots .on:hover {
+	background: url(select.png) 0px 0px;
+}
+
+.ac .shift03 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ar .shift03 {
+	float:right;
+}

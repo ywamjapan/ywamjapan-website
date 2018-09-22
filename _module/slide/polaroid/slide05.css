@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.shift05 {
+	position: relative;
+	overflow: hidden;
+	background: url(bg_kurk.jpg);
+	-webkit-user-select: none;
+}
+
+.shift05 div, .shift05 img, .shift05 a, .shift05 p {
+	padding:0;
+	maring: 0;
+}
+
+.shift05 .polaroid {
+	width:370px;
+	height:380px;
+	background-image:url(../_common/polaroid.png);
+	position:absolute;
+	cursor: pointer;
+}
+
+.shift05 .polaroid .img-area {
+	margin-top: 21px;
+	margin-left: 21px;
+	display: block;
+	width: 326px;
+	height: 267px;
+	position:relative;
+	overflow: hidden;
+}
+
+/* for IE7*/
+*:first-child+html .shift05 .polaroid .img-area {
+	margin-top: 21px;
+	margin-left: 0px;
+	display: block;
+	width: 326px;
+	height: 267px;
+	position:relative;
+	overflow: hidden;
+}
+
+.shift05 .polaroid p {
+	margin-top: 20px;
+	padding: 0px 20px 0px 20px;
+	width: 334px;
+	height: 50px;
+	text-align: left;
+	font-size: 1.6em;
+	overflow: hidden;
+}
+
+.ac .shift05 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ar .shift05 {
+	float:right;
+}

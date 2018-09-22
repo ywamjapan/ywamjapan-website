@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.shift04 {
+	position: relative;
+	overflow: hidden;
+}
+
+.shift04 .boat {
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+.shift04 .boat div {
+	float: left;
+}
+
+.shift04 .boat a, .shift04 .boat img  {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* tab nav */
+.shift04 .tab-base {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	height: 340px;
+	width: 220px;
+	display: block;
+	zorder: 9999;
+	padding-top: 10px;
+}
+
+.shift04 .tab-top {
+	width: 220px;
+	height: 11px;
+	background: url(banner_nav_bg_withline.png) 20px 0px no-repeat;
+}
+
+.shift04 .tab-container {
+	display: block;
+	height: 320px;	/* 320 or 280 */
+	width: 220px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	background: url(banner_nav_bg.png) 20px -10px no-repeat;
+}
+
+.shift04 .tab-bottom {
+	width: 220px;
+	height: 9px;
+	background: url(banner_nav_bg_withline.png) 20px -331px no-repeat;
+}
+
+.shift04 .tab-bottom p {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 22px;
+	left: 36px;
+	color: #333333;
+	text-align: left;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-shadow: 0.5px 0.5px 1px #ffffff;
+}
+
+/* tabs */
+.shift04 .tab-boat {
+}
+
+.shift04 .tab {
+	width: 200px;
+	height: 24px;
+	display: block;
+	margin: 0px;
+	padding: 10px 6px 6px 36px;
+	overflow: hidden;
+	border: none;
+	background: url(slider_nav_spacer.png) 20px 100% no-repeat;
+}
+.shift04 .tab:hover {
+	background: url(slider_nav_hover.png) 20px 0px no-repeat;
+}
+
+.shift04 .tab.on {
+	background: url(banner_active.png) no-repeat;
+}
+
+.shift04 .tab.on:hover {
+	
+}
+
+.shift04 .tab p {
+	margin: 0;
+	padding: 0;
+	width: 700px;
+	color: #333333;
+	text-align: left;
+	font-size: 1.2em;
+	text-shadow: 0.5px 0.5px 1px #ffffff;
+}
+
+/* nav button */
+.shift04 .tab-bottom a {
+	width: 36px;
+	height: 36px;
+	display: block;
+	border: none;
+}
+.shift04 .prevNav {
+	float: right;
+	margin-right: 2px;
+	background: url(btn_prev.png) no-repeat;
+}
+.shift04 .prevNav:active {
+	background: url(btn_prev.png) 0px -40px no-repeat;
+}
+
+.shift04 .nextNav {
+	float: right;
+	margin-right: 10px;
+	background: url(btn_next.png) no-repeat;
+}
+.shift04 .nextNav:active {
+	background: url(btn_next.png) 0px -40px no-repeat;
+}
+
+.ac .shift04 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ar .shift04 {
+	float:right;
+}
